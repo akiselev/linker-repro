@@ -1,0 +1,12 @@
+[package]
+name = "linker-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cxx = "1.0.94"
+cxx-qt = "0.6.1"
+cxx-qt-lib = "0.6.1"
+
+[build-dependencies]
+cxx-qt-build = "0.6.1"
